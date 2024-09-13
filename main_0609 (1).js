@@ -16,22 +16,14 @@ const tempoobjetivo3 = new Date("2025-01-18T00:00:00");
 const tempoobjetivo4 = new Date("2025-02-18T00:00:00");
 let tempoAtual = new Date();
 
-// contadores[0].textContent =  calculaTempo(tempoobjetivo1);
-// contadores[1].textContent =  calculaTempo(tempoobjetivo2);
-// contadores[2].textContent =  calculaTempo(tempoobjetivo3);
-// contadores[3].textContent =  calculaTempo(tempoobjetivo4);
+contadores[0].textContent =  calculaTempo(tempoobjetivo1);
+contadores[1].textContent =  calculaTempo(tempoobjetivo2);
+contadores[2].textContent =  calculaTempo(tempoobjetivo3);
+contadores[3].textContent =  calculaTempo(tempoobjetivo4);
 
-const tempo =
-[tempoobjetivo1, tempoobjetivo2, tempoobjetivo3, tempoobjetivo4];
-// contadores[0].textContent = calculaTempo(tempo[0]);
-// contadores[1].textContent = calculaTempo(tempo[1]);
-// contadores[2].textContent = calculaTempo(tempo[2]);
-// contadores[3].textContent = calculaTempo(tempo[3]);
-
-for (let i = 0; i < contadores.lenght; i++) {
-  contadores[i].textContent = calculaTempo(tempo[i]);
-}
-
+const tempos =
+[tempoobjetivo1,tempoobjetivo2,tempoobjetivo3,tempoobjetivo4];
+contadores[0].textContent = calculaTempo(tempos[0]);
 
 const botoes = document.querySelectorAll('.botao');
 for(let i=0;i ,botoes.length;i++){
@@ -62,7 +54,6 @@ for(let i=0;i ,botoes.length;i++){
   }
 }
  atualizaCronometro();
-
  
-
+ 
 
