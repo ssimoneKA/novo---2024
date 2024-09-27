@@ -60,7 +60,6 @@ let tempoAtual = new Date();
       contadores[i].textContent = calculaTempo(tempos[i]);
   }
 }
- function comecaCronometro(){
+
  atualizaCronometro();
- setInterval(atualizaCronometro, 1000);}
-//  comecaCronometro();
+ setInterval(atualizaCronometro, 1000);
