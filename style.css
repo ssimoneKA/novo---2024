@@ -89,4 +89,16 @@ border-bottom: 10px solid var(--verde);
 .contador{
    font-size: 20px;
    text-align: center;
+   display: flex;
+   justify-content: center;
+}
+
+.contador-digito{
+  padding: 0 46px;
+  text-align: center;
+}
+
+.contador-digito-numero{
+  font-size: 80px;
+  margin:0;
 }
